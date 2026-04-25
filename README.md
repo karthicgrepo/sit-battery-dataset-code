@@ -65,8 +65,6 @@ sit-battery-dataset-code/
 ├── 03_feature_extraction.ipynb
 │                                 Per-cycle health indicators → feature_matrix.csv
 ├── 04_rul_prediction.ipynb       RUL prediction (curve extrapolation, Ridge ML)
-├── cell_summary.csv              Pre-computed per-cell statistics
-├── feature_matrix.csv            Extracted per-cycle ML-ready features
 ├── requirements.txt
 └── README.md
 ```
@@ -136,7 +134,7 @@ summary = ds.summary()                     # per-cell statistics table
 |---|----------|-------------|
 | 1 | `01_quickstart` | Loads one cell, plots V/I/T for a single cycle, plots capacity fade, compares groups |
 | 2 | `02_capacity_fade_analysis` | Overlays all 20 deep-cycling cells, isolates temperature effect (G1 vs G2), C-rate effect (G2 vs G3), quantifies G1 variability |
-| 3 | `03_feature_extraction` | Extracts per-cycle health indicators and saves ML-ready `feature_matrix.csv` |
+| 3 | `03_feature_extraction` | Extracts per-cycle health indicators and writes `feature_matrix.csv` (generated output, not in repo) |
 | 4 | `04_rul_prediction` | Predicts Remaining Useful Life via quadratic/linear extrapolation and cross-cell Ridge regression with leave-one-cell-out CV |
 
 ---

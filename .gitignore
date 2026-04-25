@@ -21,5 +21,9 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Generated outputs (produced by running the notebooks)
+cell_summary.csv
+feature_matrix.csv
+
 # Data (download separately from SIT IRR DOI)
 Data/
