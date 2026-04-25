@@ -1,0 +1,8 @@
+# SIT Battery Dataset — Python Dependencies
+# Install with:  pip install -r requirements.txt
+pandas>=1.5
+numpy>=1.23
+openpyxl>=3.0
+matplotlib>=3.6
+scikit-learn>=1.2
+jupyter>=1.0
