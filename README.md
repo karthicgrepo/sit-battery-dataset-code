@@ -1,6 +1,6 @@
 # SIT Battery Degradation Dataset — Code
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19769515.svg)](https://doi.org/10.5281/zenodo.19769515)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Python utilities and Jupyter notebooks for working with the
@@ -155,7 +155,7 @@ If you use this code or dataset, please cite the associated publication:
 > Ponnambalam, K., Balakrishnan, S., Soh, C. B., Sharma, A. & Lee, S. S.
 > "Multi-condition ageing dataset for large-format prismatic LiFePO₄ batteries
 > with per-cell thermal monitoring." *Scientific Data* (under review, 2026).
-> Code DOI: https://doi.org/10.5281/zenodo.XXXXXXX
+> Code DOI: https://doi.org/10.5281/zenodo.19769515
 
 ---
 
